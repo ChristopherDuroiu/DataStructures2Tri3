@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Welcome to my Individual Tri 3 Page
 
-You can use the [editor on GitHub](https://github.com/ChristopherDuroiu/DataStructures2Tri3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Week 0
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+[Week 0 Review Ticket](https://github.com/ChristopherDuroiu/DataStructures2Tri3/issues/1)
 ```
+##Take Aways
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Data structures are used to organize various data in a logical way
+- There are different types of data structures which are primitive and non-primitive
+- Some common types of data structures are Integer, Floats, Strings, Booleans
+- One new data type I used in the challenge was the type Runnable, which is useful in passing a method for an object as a parameter
+- Non-Primitive are Arrays, Lists, Tuple, Dictionary, Set, File
+- Algorithms can deal with data structures and extract / reorder information
+- Objected Oriented Programming uses classes and objects to create objects and instances of them -> constructors, encapsulation, abstraction, polymorphism which could have been used for this project
+- Common Data Structures are Arrays/Lists, Dictionaries/Hashmaps
 
-### Jekyll Themes
+here is an example of type Runnable I used:
+![image](https://user-images.githubusercontent.com/89252299/158219765-39ce4c69-b72c-4dcf-ba94-989e21001d4c.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChristopherDuroiu/DataStructures2Tri3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
