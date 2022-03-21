@@ -21,7 +21,7 @@ here is an example of type Runnable I used:
 
 # Week 1
 
-[Week 1 Review Ticket]()
+[Week 1 Review Ticket](https://github.com/ChristopherDuroiu/DataStructures2Tri3/issues/2)
 
 ```
 - linked lists are important to future cs classes
