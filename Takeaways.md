@@ -1,5 +1,6 @@
-# Tech Talk 0 Takeaways + Review Ticket : https://github.com/ChristopherDuroiu/DataStructures2Tri3/issues/1
+# Tech Talk 0 Takeaways
 
+- https://github.com/ChristopherDuroiu/DataStructures2Tri3/issues/1
 - Data structures are used to organize various data in a logical way
 - There are different types of data structures which are primitive and non-primitive
 - Some common types of data structures are Integer, Floats, Strings, Booleans
