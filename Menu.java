@@ -27,7 +27,7 @@ public class Menu {
       options.get(id).run();
     } 
     catch (Exception e) {
-      System.out.println("Invalid Input");
+      System.out.println("Please input a number");
     }
   }
 }

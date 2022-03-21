@@ -24,6 +24,16 @@ public class Main {
       ml.print();
       ml.printPoem();
     }
+
+    static void do_merge() {
+      MergeSorted ms = new MergeSorted();
+      ms.run1();
+    }
+
+    static void do_stack() {
+      StackQueue s = new StackQueue();
+      s.run();
+    }
   
     static public void main(String[] args)  { 
         Menu m = new Menu();
@@ -35,7 +45,9 @@ public class Main {
         m.addItem(5, new String("Classy Poem"),    Main::do_5);
         m.addItem(6, new String("Binary"),         Biny::main);
         m.addItem(7, new String("Termy"),          Termy::main);
-
+        m.addItem(8, new String("LinkedList"),     MyLinkedList::main);
+        m.addItem(9, new String("MergeSorted"),    Main::do_merge);
+        m.addItem(10, new String("StackQue"),      Main::do_stack);
         String banner = new String();
         banner = "-------------------------\n";
         banner = banner + "Choose from these choices\n";
