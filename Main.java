@@ -34,6 +34,34 @@ public class Main {
       StackQueue s = new StackQueue();
       s.run();
     }
+
+    static void do_calculator() {
+      Calculator simpleMath = new Calculator("100 + 200  * 3");
+      System.out.println("Simple Math\n" + simpleMath);
+  
+       simpleMath = new Calculator("(100 + 200)  * 3");
+      System.out.println("Simple Math\n" + simpleMath);
+  
+       simpleMath = new Calculator("100.2 - 99.3");
+      System.out.println("Simple Math\n" + simpleMath);
+  
+       simpleMath = new Calculator("300 % 200");
+      System.out.println("Simple Math\n" + simpleMath);
+  
+       simpleMath = new Calculator("300/200");
+      System.out.println("Simple Math\n" + simpleMath);
+
+       simpleMath = new Calculator("200%(300+5+300)/200+1*100");
+      System.out.println("Simple Math\n" + simpleMath);
+
+       simpleMath = new Calculator("2 ^ 3");
+      System.out.println("Simple Math\n" + simpleMath);
+
+     simpleMath = new Calculator("SQRT 4");
+      System.out.println("Simple Math\n" + simpleMath);
+
+    }
+  
   
     static public void main(String[] args)  { 
         Menu m = new Menu();
@@ -48,6 +76,7 @@ public class Main {
         m.addItem(8, new String("LinkedList"),     MyLinkedList::main);
         m.addItem(9, new String("MergeSorted"),    Main::do_merge);
         m.addItem(10, new String("StackQue"),      Main::do_stack);
+        m.addItem(11, new String("Calculator"),    Main::do_calculator);
         String banner = new String();
         banner = "-------------------------\n";
         banner = banner + "Choose from these choices\n";
