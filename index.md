@@ -45,3 +45,22 @@ here is an example of type Runnable I used:
 ![image](https://user-images.githubusercontent.com/89252299/159213006-dcf7311a-7d41-4b4d-88d6-2345facef4bd.png)
 - Deque and enque function very similarly, and I used method printList in both the enque and deque functions themseleves to complete the respective portions of the challenge <br />
 ![image](https://user-images.githubusercontent.com/89252299/159213131-d46f7242-f3f9-4a20-b2aa-13240b9181f4.png)
+
+# Week 2
+
+[Week 2 Review Ticket](https://github.com/ChristopherDuroiu/DataStructures2Tri3/issues/3)
+
+```
+- Java has no built in string to comutation method
+- arraylists are much easier to do calculations on that stacks
+- Math.pow and ^0.5 can both be used to path a square root
+
+```
+
+Switch case in a for loop is useful in calculating
+
+![image](https://user-images.githubusercontent.com/89252299/160670964-38cf0af2-769d-42bc-befd-ade38e4012d2.png)
+
+Hashmaps and keys can be useful to check if something is an operand or operator
+![image](https://user-images.githubusercontent.com/89252299/160671112-e08a7ab6-675e-4758-8f30-2788d882a8dc.png)
+
