@@ -228,9 +228,10 @@ A very useful image for visualizing the buble sort can be found below
 - A selection sort works by iterating through an array multiple times, and extracting and removing the minimum value each pass and placing it in an empty array
 - The best, average, and worst case time complextiy for a selection sort is O(n^2)
 - A bubble sort has a worst and average time complexity of **O(n^2)** and a best case time complexity of O(n) which is when the elements are already sorted
-
+<br />
+<br />
 **Summary and Comparisons**
-Here is what one run of my code looks like for 5000 elements:
+<br />Here is what one run of my code looks like for 5000 elements:
 ![image](https://user-images.githubusercontent.com/89252299/161472123-9bb41929-8f0e-4ab2-bed6-df32b4be1b2d.png)
 <br /> (selection1 is a modification I made of the selection algorithm to get the greatest element simulataneously with the smallest element with each pass to save time)
 <br />
