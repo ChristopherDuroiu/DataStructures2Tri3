@@ -1,4 +1,4 @@
-# Welcome to my Sorting Takeaways
+# Sorting Takeaways
 
 # Merge Sort
 
@@ -233,7 +233,7 @@ A very useful image for visualizing the buble sort can be found below
 **Summary and Comparisons**
 <br />
 Here is what one run of my code looks like for 5000 elements:
-![image](https://user-images.githubusercontent.com/89252299/161472123-9bb41929-8f0e-4ab2-bed6-df32b4be1b2d.png)
+![image](https://user-images.githubusercontent.com/89252299/161473727-1667d812-6e32-4c57-b706-1d436259b321.png)
 <br /> (selection1 is a modification I made of the selection algorithm to get the greatest element simulataneously with the smallest element with each pass to save time)
 <br />
 <br />
