@@ -72,12 +72,12 @@ public class Main {
         Menu m = new Menu();
         m.addItem(0, new String("Quit"),           Main::do_0);
         m.addItem(1, new String("Hello"),          Main::do_1);
-        m.addItem(2, new String("Printy"),         Printy::main);
-        m.addItem(3, new String("Loopy"),          Main::do_3);
-        m.addItem(4, new String("Classy Print"),   Main::do_4);
-        m.addItem(5, new String("Classy Poem"),    Main::do_5);
-        m.addItem(6, new String("Binary"),         Biny::main);
-        m.addItem(7, new String("Termy"),          Termy::main);
+        m.addItem(2, new String("Printy"),         Printy::main); // we may not be doing this
+        m.addItem(3, new String("Loopy"),          Main::do_3); // we may not be doing this
+        m.addItem(4, new String("Classy Print"),   Main::do_4); // we may not be doing this
+        m.addItem(5, new String("Classy Poem"),    Main::do_5); // we may not be doing this
+        m.addItem(6, new String("Binary"),         Biny::main); // we may not be doing this
+        m.addItem(7, new String("Termy"),          Termy::main); // we may not be doing this
         m.addItem(8, new String("LinkedList"),     MyLinkedList::main);
         m.addItem(9, new String("MergeSorted"),    Main::do_merge);
         m.addItem(10, new String("StackQue"),      Main::do_stack);
