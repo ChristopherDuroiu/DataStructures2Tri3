@@ -61,7 +61,12 @@ public class Main {
       System.out.println("Simple Math\n" + simpleMath);
 
     }
-  
+
+
+    static void do_sort() {
+        Sort sort = new Sort(5000);
+        System.out.println("Sort " + "\n" + sort);
+      }
   
     static public void main(String[] args)  { 
         Menu m = new Menu();
@@ -77,6 +82,7 @@ public class Main {
         m.addItem(9, new String("MergeSorted"),    Main::do_merge);
         m.addItem(10, new String("StackQue"),      Main::do_stack);
         m.addItem(11, new String("Calculator"),    Main::do_calculator);
+        m.addItem(12, new String("Sort"),     Main::do_sort);
         String banner = new String();
         banner = "-------------------------\n";
         banner = banner + "Choose from these choices\n";

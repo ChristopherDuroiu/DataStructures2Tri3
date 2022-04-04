@@ -41,7 +41,7 @@ public class Calculator {
         OPERATORS.put("^", 2);
         OPERATORS.put("SQRT", 2);
     }
-
+  
     private final Map<String, Integer> NUMOPERANDS = new HashMap<>();
     {
         // Map<"token", precedence>
@@ -53,7 +53,6 @@ public class Calculator {
         NUMOPERANDS.put("^", 2);
         NUMOPERANDS.put("SQRT", 1);
     }
-
   
   private final Map<String, Integer> SEPARATORS = new HashMap<>();
     {
@@ -182,7 +181,7 @@ public class Calculator {
       for (int i=0; i<reverse_polish.size(); i++)  {
         if (!OPERATORS.containsKey(reverse_polish.get(i))) {
           calculation.push(Double.parseDouble(reverse_polish.get(i)));
-        } //is number
+        } //is operator
         else {
           if (NUMOPERANDS.get(reverse_polish.get(i)) == 1) {
             a = (calculation.pop());
