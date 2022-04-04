@@ -233,7 +233,8 @@ A very useful image for visualizing the buble sort can be found below
 Here is what one run of my code looks like for 5000 elements:
 ![image](https://user-images.githubusercontent.com/89252299/161472123-9bb41929-8f0e-4ab2-bed6-df32b4be1b2d.png)
 <br /> (selection1 is a modification I made of the selection algorithm to get the greatest element simulataneously with the smallest element with each pass to save time)
-<br />For 12 runs removing corner cases of each sort algorithm the results are:
+<br />
+<br />**For 12 runs removing corner cases of each sort algorithm the results are:**
 
 **<br />merge average = 60 ms
 <br />Insertion average = 68 ms
