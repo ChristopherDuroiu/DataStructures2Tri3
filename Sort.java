@@ -248,7 +248,7 @@ long insertion_t;
     this.output = this.output + "selection1 algorithm: size = " + size + " O = " + selection1_o + " (" + size * size + ")" + " time = " + selection1_t + "ms \n";
   }
 
-  public void Selection1Sort() {
+  public void Selection1Sort() { // this is speeding up traditional selection by also getting maximum element with each iteartion so it divides time by an average of 2
     int min, max;
     int minid, maxid;
     
