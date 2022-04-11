@@ -1,5 +1,8 @@
-
-import java.util.Scanner; //java library for user input
+import java.time.Duration;
+import java.time.Instant;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
 
 
 public class Main {   
@@ -67,6 +70,28 @@ public class Main {
         Sort sort = new Sort(5000);
         System.out.println("Sort " + "\n" + sort);
       }
+    static void do_twoQueue() {
+        int time = 0;
+        Queue<Integer> queue1 = new LinkedList<>();
+        final Duration timeElapsed;
+        Instant start = Instant.now();  // time capture -- start
+        for (int i = 0; i < 100; i++) {
+            queue1.add(i);
+        }
+
+        System.out.println("Initial Queue: "+ queue1);
+
+        System.out.print("Reverse Queue: ");
+
+        twoQueue.reverse(queue1);
+        Instant end = Instant.now();    // time capture -- end
+        timeElapsed = Duration.between(start, end);
+        System.out.println();
+        System.out.println("Nanoseconds: " + timeElapsed.getNano());
+        time += timeElapsed.getNano();
+        System.out.println("Total Nanoseconds: " + time );
+        System.out.println("Total Seconds: " + time /1000000000.0);
+    }
   
     static public void main(String[] args)  { 
         Menu m = new Menu();
@@ -83,6 +108,7 @@ public class Main {
         m.addItem(10, new String("StackQue"),      Main::do_stack);
         m.addItem(11, new String("Calculator"),    Main::do_calculator);
         m.addItem(12, new String("Sort"),     Main::do_sort); // all in sort.java
+        m.addItem(12, new String("twoQueue"),     Main::do_twoQueue); // all in sort.java
         String banner = new String();
         banner = "-------------------------\n";
         banner = banner + "Choose from these choices\n";
