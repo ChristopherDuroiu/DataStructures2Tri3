@@ -249,3 +249,4 @@ Bubble sort by far performed the worst, though my code is probably not optimal b
 
 The algorithms ranked best (fastest) to worst(slowest) are merge, selection = insertion, bubble 
 
+![image](https://user-images.githubusercontent.com/89252299/162675718-c831abd4-2a61-4160-9bb8-9d6167b32368.png)
